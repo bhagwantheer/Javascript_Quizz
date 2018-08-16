@@ -1,0 +1,73 @@
+ { box-sizing: border-box; }
+body { font-family: 'Roboto', sans-serif; font-size: 18px;background-color: black;}
+
+.hidden{display: none;}
+.nextQuestion{margin-top: 50px;	border: 2px solid red;}
+
+.wrapper{
+	margin: 30px auto 0 auto;
+	max-width: 80%;
+	background-color: #233140;
+	padding: 10px 10px 0 10px;
+	border:20px solid #2c3e50;
+	box-shadow:5px 10px coral;
+	
+	}
+.startQuiz h1{
+	background-color: #0000ff63;
+	border-radius: 30%;
+	color: white;
+	font-weight: bold;
+	width: 80%;
+	text-align: center;
+	padding:20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.startbtn{
+	border-radius: 50%;
+	color: #0e075e;
+	text-align: center;
+	width: 200px;
+	height:200px;
+	border:15px solid gray;
+	font-size: 30px;
+	margin-left: 40%;
+	margin-right: 60%;
+}
+.startbtn:hover{background-color: #3c6477;color: #1d1e1f;}
+.submitbtn{
+	background-color: white;
+	width: 200px;height:50px;
+	margin-top: 20px;
+	text-align: center;
+}
+label{
+	display: block;
+ 	font-size: 25px;
+	padding: 5px 0 10px 15px;
+	color:white;
+}
+ #questionHeading{
+ 	color:white;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.counterClass{
+	color: white;
+	margin-top: 20px;
+	padding:10px 0 10px 0;
+	font-weight: bold;
+
+}
+.finalResult{
+	display: none;
+	background: #ff5459;
+	padding:40px 20px 10px 20px;
+	height: 200px;
+	text-align: center;
+	
+}
+

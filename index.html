@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quizz</title>
+	<link rel="stylesheet" href="css/main1.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="startQuiz">
+		<h1>Click start when ready to take the quizz</h1>
+		<button class="startbtn">Start</button>
+	</div>
+	
+	<div class="hidden questionsClass">
+			<h2 id="questionHeading"></h2>
+			
+	</div>
+			
+	<div class="hidden btnClass">
+	<input type="submit" class="submitbtn" value="Check Answer">
+	</div>
+
+	<div class="hidden counterClass">
+		<span class="questionCount">Question:</span><br>
+		<br>
+		<span class="scoreCount">Score:</span>
+
+	</div> 
+
+	<div class="hidden finalResult">
+		
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="js/questions.js"></script>
+<script src="js/main1.js"></script>	
+</body>
+</html>
